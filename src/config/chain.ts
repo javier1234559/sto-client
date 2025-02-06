@@ -35,12 +35,12 @@ export const localChain: Chain = {
   apis: {
     rpc: [
       {
-        address: `http://localhost:26657`,
+        address: `${NODE_URL}:26657`,
       },
     ],
     rest: [
       {
-        address: `http://localhost:1317`,
+        address: `${NODE_URL}:1317`,
       },
     ],
   },
